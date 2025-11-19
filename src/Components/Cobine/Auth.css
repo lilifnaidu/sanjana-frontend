@@ -1,0 +1,10 @@
+.auth-card{
+  margin-top: 0.5rem;
+}
+.auth-bg{
+    background: linear-gradient(120deg, #6a5cff, #7c3aed);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

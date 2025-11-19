@@ -1,0 +1,136 @@
+
+.page-container {
+  min-height: 100vh;
+  background: #f7f7f7;
+  padding-bottom: 80px;
+}
+
+.header-section {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/** Search Bar **/
+.search-bar {
+  margin-top: 15px;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+}
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.search-icon {
+  font-size: 20px;
+}
+
+/* Tabs */
+.tabs-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+.tab-btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.active-tab {
+  background: #6a0dad;
+  color: white;
+  border-color: #6a0dad;
+}
+
+/* Cards */
+.cards-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card {
+  background: white;
+  border-radius: 18px;
+  display: flex;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.card-icon-section {
+  width: 100px;
+  height: 20re;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 40px;
+}
+.bg-purple { background: #f1d9ff; }
+.bg-blue { background: #d9e7ff; }
+.bg-green { background: #d9ffe3; }
+
+.card-content {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subject-text {
+  font-size: 13px;
+  font-weight: bold;
+}
+.color-purple { color: #6a0dad; }
+.color-blue { color: #0059ff; }
+.color-green { color: #008f3f; }
+
+.author-text {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.info-list p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #444;
+  margin-top: 3px;
+}
+
+.card-footer {
+
+  margin-top: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+}
+
+.trust-box {
+  background: #ffe66a;
+  padding: 4px 10px;
+ 
+}
