@@ -57,7 +57,7 @@ const handleSubmit = async (e) => {
     formData.append("studentId", form.studentId);
     formData.append("idCard", form.idCard); // FILE MUST USE append()
 
-    const response = await fetch("https://server-qkb9j5wh2-lilifs-projects.vercel.app/signup", {
+    const response = await fetch("https://vercel-backend-tau-three.vercel.app/signup", {
       method: "POST",
       body: formData, // no headers needed for multipart
     });
